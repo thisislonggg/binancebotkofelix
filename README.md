@@ -47,7 +47,7 @@ npm run dev       # http://localhost:3000 (env di .env.local)
    `src/auto-verify/tanstack/bootstrap.ts` begitu env-nya ada.
 4. Redeploy, buka dashboard, masukkan token admin, dan **biarkan tab itu terbuka**.
 
-`@tanstack/react-start` dikunci di `1.168.32`. Versi 1.169+ mengganti `.inputValidator` menjadi
+`@tanstack/react-start` dikunci di `1.168.61` (1.168.32 kena CVE-2026-102989 dan diblokir Vercel). Versi 1.169+ mengganti `.inputValidator` menjadi
 `.validator`, jadi sesuaikan `tanstack/server-fns.ts` bila meng-upgrade.
 
 ## Pasang di proyek lain (TanStack Start)
